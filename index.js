@@ -4,7 +4,7 @@ import { Team } from "./Team.js";
 
 const hero_team = new Team("Avengers", ["Weapons", "Planes"]);
 const ironMan = new Hero("Tony Stark", "Tecnology", "Iron Man", hero_team, "billionaire");
-ironMan.cadastrarSenha("1234");
+ironMan.cadastrarSenha("12345");
 const heroLogged = SistemaAutenticacao.login(ironMan, "1234");
 
 console.log(ironMan.team_name());
